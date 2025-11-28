@@ -75,4 +75,28 @@ h1{
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .choice1, .choice2, .choice3 {
+        height: 22vmin;
+        width: 22vmin;
+        font-size: 10vmin;
+    }
+
+    .score-board {
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
 }
